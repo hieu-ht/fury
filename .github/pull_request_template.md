@@ -1,5 +1,5 @@
 <!--
-Thank you for your contribution!
+Thank you for your contribution! test change .github folder
 
 Please review https://github.com/alipay/fury/blob/main/CONTRIBUTING.rst before opening a pull request.
 -->
