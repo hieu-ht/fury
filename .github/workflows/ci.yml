@@ -10,9 +10,9 @@ on:
     tags:
       - v*
   pull_request:
-    types: ['opened', 'reopened', 'synchronize']
     paths-ignore:
       - '**/README.md'
+    types: ['opened', 'reopened', 'synchronize']
 
 jobs:
   java:
