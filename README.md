@@ -55,7 +55,7 @@ Dynamic serialization frameworks support polymorphism and references, but they o
 Because Fury generates code at runtime, it is recommended to **warm up** the system before collecting benchmark statistics.
 
 ### Java Serialization
-Title containing "compatible" represent schema compatible mode: support type forward/backward compatibility.
+Title containing "compatible" represent schema compatible mode: support type forward/backward compatibility. test markdown change
 
 Title without "compatible" represent schema consistent mode: class schema must be same between serialization and deserialization.
 
