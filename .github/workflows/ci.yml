@@ -11,6 +11,8 @@ on:
       - v*
   pull_request:
     types: ['opened', 'reopened', 'synchronize']
+    paths-ignore:
+      - '**/README.md'
 
 jobs:
   java:
