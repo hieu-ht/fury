@@ -11,7 +11,8 @@ on:
       - v*
   pull_request:
     paths-ignore:
-      - '**/README.md'
+      - '**/*.md'
+      - 'docs/**'
     types: ['opened', 'reopened', 'synchronize']
 
 jobs:
