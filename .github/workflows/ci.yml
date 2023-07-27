@@ -13,6 +13,10 @@ on:
     paths-ignore:
       - '**/*.md'
       - 'docs/**'
+      - 'LICENSE'
+      - '.vscode/**'
+      - '.gitignore'
+      - '.github/**'
     types: ['opened', 'reopened', 'synchronize']
 
 jobs:
